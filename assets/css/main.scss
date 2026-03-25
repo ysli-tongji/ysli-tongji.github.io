@@ -97,6 +97,42 @@ h1:before, .anchor:before {
     margin-top: -$scroll_offset;
 }
 
+// ── Language switcher widget ──────────────────────────────
+.lang-switcher {
+  position: fixed;
+  bottom: 1.5em;
+  right: 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.45em;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2em;
+  padding: 0.45em 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  z-index: 9999;
+  font-size: 0.78em;
+  user-select: none;
+  transition: box-shadow 0.2s, transform 0.15s;
+  &:hover { box-shadow: 0 4px 14px rgba(0,0,0,0.2); transform: translateY(-1px); }
+  &__icon  { font-size: 1.25em; line-height: 1; }
+  &__info  { display: flex; flex-direction: column; line-height: 1.25; }
+  &__label { font-size: 0.72em; color: #999; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+  &__name  { font-weight: 700; color: #222; font-size: 1.05em; }
+  &__arrow { color: #888; font-size: 1em; }
+}
+
+// ── i18n content toggling ─────────────────────────────────
+// Inline elements
+.i18n-zh         { display: none !important; }
+body.lang-zh .i18n-en { display: none !important; }
+body.lang-zh .i18n-zh { display: inline !important; }
+// Block elements
+.i18n-zh-block         { display: none !important; }
+body.lang-zh .i18n-en-block { display: none !important; }
+body.lang-zh .i18n-zh-block { display: block !important; }
+
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;

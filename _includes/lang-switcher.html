@@ -1,0 +1,37 @@
+<div class="lang-switcher" id="lang-switcher" title="Switch Language / 切换语言">
+  <span class="lang-switcher__icon">🌐</span>
+  <div class="lang-switcher__info">
+    <span class="lang-switcher__label">LANGUAGE</span>
+    <span class="lang-switcher__name" id="lang-name">English</span>
+  </div>
+  <span class="lang-switcher__arrow">⇄</span>
+</div>
+
+<script>
+(function () {
+  var body = document.body;
+
+  function applyLang(lang) {
+    if (lang === 'zh') {
+      body.classList.add('lang-zh');
+    } else {
+      body.classList.remove('lang-zh');
+    }
+    var nameEl = document.getElementById('lang-name');
+    if (nameEl) nameEl.textContent = lang === 'zh' ? '中文' : 'English';
+  }
+
+  // Restore saved preference before paint
+  var saved = localStorage.getItem('page-lang') || 'en';
+  applyLang(saved);
+
+  document.addEventListener('DOMContentLoaded', function () {
+    applyLang(localStorage.getItem('page-lang') || 'en');
+    document.getElementById('lang-switcher').addEventListener('click', function () {
+      var next = body.classList.contains('lang-zh') ? 'en' : 'zh';
+      localStorage.setItem('page-lang', next);
+      applyLang(next);
+    });
+  });
+})();
+</script>
