@@ -95,10 +95,17 @@
     max-width: 175px;
     min-width: 75px;
     border-radius: 50%;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+      transform: scale(1.03);
+    }
 
     @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+      padding: 4px;
+      border: 3px solid #fff;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
     }
   }
 }
@@ -246,9 +253,13 @@
     color: inherit;
     font-size: $type-size-5;
     text-decoration: none;
+    transition: color 0.15s ease, padding-left 0.15s ease;
+    cursor: pointer;
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      color: #2563EB;
+      padding-left: 3px;
     }
   }
 }

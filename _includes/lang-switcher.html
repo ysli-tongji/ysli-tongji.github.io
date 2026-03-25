@@ -1,13 +1,29 @@
-<div class="lang-switcher" id="lang-switcher" title="Switch Language / 切换语言">
-  <span class="lang-switcher__icon">🌐</span>
+<button class="lang-switcher" id="lang-switcher" title="Switch Language / 切换语言" aria-label="Switch language">
+  <span class="lang-switcher__icon" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="10"/>
+      <line x1="2" y1="12" x2="22" y2="12"/>
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+    </svg>
+  </span>
   <div class="lang-switcher__info">
     <span class="lang-switcher__label">LANGUAGE</span>
     <span class="lang-switcher__name" id="lang-name">English</span>
   </div>
-  <span class="lang-switcher__arrow">⇄</span>
-</div>
+  <span class="lang-switcher__arrow" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="17 1 21 5 17 9"/>
+      <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+      <polyline points="7 23 3 19 7 15"/>
+      <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+    </svg>
+  </span>
+</button>
 
 <script>
+// ── 1. Language switcher ─────────────────────────────────
 (function () {
   var body = document.body;
 
@@ -34,4 +50,57 @@
     });
   });
 })();
+
+// ── 2. Scroll reveal (Intersection Observer) ─────────────
+document.addEventListener('DOMContentLoaded', function () {
+  var targets = document.querySelectorAll(
+    '.page__content h1, .page__content h2, .page__content table, .page__content details, .page__content blockquote'
+  );
+
+  var revealObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+
+  targets.forEach(function (el) {
+    var rect = el.getBoundingClientRect();
+    if (rect.top > window.innerHeight * 0.9) {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(20px)';
+      el.style.transition = 'opacity 0.55s ease, transform 0.55s ease';
+      revealObserver.observe(el);
+    }
+  });
+});
+
+// ── 3. Navigation active section highlight ───────────────
+document.addEventListener('DOMContentLoaded', function () {
+  var sections = document.querySelectorAll(
+    '#about-me, #-news, #-publications, #-awards--honors, #-patents, #-education, #-professional-service, #-media-coverage'
+  );
+  var navLinks = document.querySelectorAll('.greedy-nav a');
+
+  if (!sections.length || !navLinks.length) return;
+
+  var spyObserver = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        var id = '#' + entry.target.id;
+        navLinks.forEach(function (link) {
+          var href = link.getAttribute('href') || '';
+          // strip domain prefix, keep the hash part
+          var hashPart = href.replace(/^[^#]*/, '');
+          link.classList.toggle('nav--active', hashPart === id);
+        });
+      }
+    });
+  }, { rootMargin: '-15% 0px -80% 0px' });
+
+  sections.forEach(function (s) { spyObserver.observe(s); });
+});
 </script>
