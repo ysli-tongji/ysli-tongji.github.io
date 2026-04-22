@@ -82,30 +82,34 @@
   display: table-cell;
   vertical-align: top;
   width: 75px;
-  // set width only, for non-square avatars
-  // height: 36px;
+  height: 75px;
+  flex: 0 0 75px;
 
   @include breakpoint($large) {
     display: block;
-    width: auto;
-    height: auto;
+    width: 148px;
+    height: 148px;
+    margin: 0 auto 0.75rem;
   }
 
-  img {
-    max-width: 175px;
-    min-width: 75px;
+  .author__avatar-image {
+    display: block;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
     border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.75);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.14);
     transition: box-shadow 0.25s ease, transform 0.25s ease;
 
     &:hover {
-      box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+      box-shadow: 0 10px 24px rgba(0,0,0,0.18);
       transform: scale(1.03);
     }
 
     @include breakpoint($large) {
-      padding: 4px;
-      border: 3px solid #fff;
-      box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+      width: 148px;
+      height: 148px;
     }
   }
 }
