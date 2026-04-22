@@ -20,7 +20,7 @@ redirect_from:
 
 <div class="i18n-en-block" markdown="1">
 
-I am an Associate Professor / Associate Research Fellow at the [College of Transportation Engineering, Tongji University](https://tjjt.tongji.edu.cn/). My research lies at the intersection of **road engineering** and **intelligent computing**, with a focus on **Infrastructures Enable Automated-driving (IEA)** and the resilient, safe perception and proactive protection of transportation infrastructure in integrated ground-air mobility scenarios.
+I am an Associate Professor / Associate Research Fellow at the [College of Transportation, Tongji University](https://tjjt.tongji.edu.cn/). My research lies at the intersection of **road engineering** and **intelligent computing**, with a focus on **Infrastructures Enable Automated-driving (IEA)** and the resilient, safe perception and proactive protection of transportation infrastructure in integrated ground-air mobility scenarios.
 
 I was selected for the National Postdoctoral Fellowship Program and the Shanghai Super Postdoctoral Program. I currently serve as a Youth Committee Member of the Smart Highway Committee of the World Transport Convention (WTC), a technical committee member of the Transportation Research Board (TRB), and a Guest Editor for *Applied Sciences*. I also serve as a reviewer for more than 20 leading journals, including *Automation in Construction*, *Computer-Aided Civil and Infrastructure Engineering*, *Transportation Research Part C*, *International Journal of Pavement Engineering*, and *China Journal of Highway and Transport*.
 
