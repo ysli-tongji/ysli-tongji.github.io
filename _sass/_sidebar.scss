@@ -73,6 +73,7 @@
     display: block;
   }
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-start;
   align-content: flex-start;
   align-items: center;
@@ -158,13 +159,13 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: table-cell;
+  display: block;
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
-  position: relative;
-  margin-left: auto;
-  cursor: pointer;
+  width: 100%;
+  margin-top: 0.75em;
+  cursor: default;
 
   li:last-child {
     a {
@@ -174,6 +175,7 @@
 
   @include breakpoint($large) {
     display: block;
+    margin-top: 0;
   }
 
   button {
@@ -187,31 +189,23 @@
 }
 
 .author__urls {
-  display: none;
-  position: absolute;
+  display: block;
+  position: relative;
   right: 0;
-  margin-top: 15px;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
   list-style-type: none;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  background: #fff;
-  z-index: -1;
-  box-shadow: 0 0 10px rgba(#000, 0.25);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
   cursor: default;
 
   @include breakpoint($large) {
-    display: block;
-    position: relative;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    background: transparent;
-    box-shadow: none;
+    right: auto;
   }
 
   &:before {
-    display: block;
+    display: none;
     content: "";
     position: absolute;
     top: -11px;
@@ -221,14 +215,10 @@
     border-width: 0 10px 10px;
     border-color: $border-color transparent;
     z-index: 0;
-
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   &:after {
-    display: block;
+    display: none;
     content: "";
     position: absolute;
     top: -10px;
@@ -238,14 +228,20 @@
     border-width: 0 10px 10px;
     border-color: #fff transparent;
     z-index: 1;
-
-    @include breakpoint($large) {
-      display: none;
-    }
   }
 
   li {
-    white-space: nowrap;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.25em;
+    white-space: normal;
+    overflow-wrap: anywhere;
+    word-break: normal;
+
+    i {
+      flex: 0 0 auto;
+      margin-top: 0.2em;
+    }
   }
 
   a {
@@ -271,7 +267,7 @@
 .author__urls_sm{
   padding: .25em;
   font-size: 1.75em;
-  display: block;
+  display: none;
   a {
     color: inherit;
     text-decoration: none;
