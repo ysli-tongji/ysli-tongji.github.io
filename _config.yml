@@ -18,13 +18,15 @@ author:
   name:        Yishun Li
   avatar:      images/avatar.jpg          # 替换为你的照片路径
   bio:         >
-    Associate Professor, College of Transportation Engineering, Tongji University.
-    Research interests: intelligent pavement inspection, computer vision, LiDAR sensing, and smart transportation infrastructure.
+    Associate Professor / Associate Research Fellow, College of Transportation Engineering,
+    Tongji University. Research interests: road engineering and intelligent computing,
+    infrastructures-enabled automated driving, and resilient transportation infrastructure.
   location:    "Shanghai, China"
+  office:      "A307, Tongda Hall, College of Transportation Engineering, Tongji University (Jiading Campus)"
   employer:    "Tongji University"
   pubmed:
-  googlescholar: "https://scholar.google.com/citations?user=LcK-Ic0AAAAJ"
-  email:       "13liys@tongji.edu.cn"
+  googlescholar:
+  email:
   researchgate:
   uri:
   bitbucket:
@@ -33,14 +35,14 @@ author:
   flickr:
   facebook:
   foursquare:
-  github:      "ysli-tongji"
+  github:
   google_plus:
   keybase:
   instagram:
   impactstory:
   lastfm:
   linkedin:                               # 暂无，如有请填入
-  orcid:       "https://orcid.org/0000-0002-7424-1937"
+  orcid:
   pinterest:
   soundcloud:
   stackoverflow:
