@@ -20,34 +20,28 @@ redirect_from:
 
 <div class="i18n-en-block" markdown="1">
 
-I am an Associate Professor at the [College of Transportation Engineering, Tongji University](https://tjjt.tongji.edu.cn/). My research focuses on **intelligent pavement inspection**, **computer vision for infrastructure monitoring**, and **smart transportation systems**. I develop sensing technologies and machine learning algorithms for automated road condition assessment, combining LiDAR point cloud processing, deep learning, and crowdsourced data analytics.
+I am an Associate Professor / Associate Research Fellow at the [College of Transportation Engineering, Tongji University](https://tjjt.tongji.edu.cn/). My research lies at the intersection of **road engineering** and **intelligent computing**, with a focus on **Infrastructures Enable Automated-driving (IEA)** and the resilient, safe perception and proactive protection of transportation infrastructure in integrated ground-air mobility scenarios.
 
-I received my Ph.D. in Transportation Engineering from Tongji University in 2023 (Outstanding Doctoral Thesis), supervised by Prof. [Yuchuan Du](https://tjjt.tongji.edu.cn/), and my B.Eng. in Traffic Engineering from Tongji University in 2017.
+I was selected for the National Postdoctoral Fellowship Program and the Shanghai Super Postdoctoral Program. I currently serve as a Youth Committee Member of the Smart Highway Committee of the World Transport Convention (WTC), a technical committee member of the Transportation Research Board (TRB), and a Guest Editor for *Applied Sciences*. I also serve as a reviewer for more than 20 leading journals, including *Automation in Construction*, *Computer-Aided Civil and Infrastructure Engineering*, *Transportation Research Part C*, *International Journal of Pavement Engineering*, and *China Journal of Highway and Transport*.
 
-My work has been recognized with the **Shanghai Municipal Science and Technology Progress Award (First Prize)** and an **ESI Highly Cited Paper** (125+ citations). I hold 10 Chinese invention patents, 1 US patent, and 2 UK patents.
+I have published more than 40 papers in high-impact journals and conferences, including *Automation in Construction*, *Transportation Research Part C*, and *IEEE Transactions on Intelligent Transportation Systems*. Several papers have been selected as an IEEE ITSM cover paper, an ESI Highly Cited Paper (top 1%), and an ESI Hot Paper (top 0.1%). My research has been recognized as a major scientific and technological achievement by the Ministry of Transport of China, and a global open dataset jointly developed with Stanford University was published in *Scientific Data*, a Nature Portfolio journal.
 
-My research interests include:
-- Pavement distress detection and condition assessment
-- LiDAR / ground-penetrating radar (GPR) data analysis
-- Transfer learning and domain adaptation for infrastructure monitoring
-- Crowdsourced data for large-scale pavement inspection
-- Automated driving and road-vehicle interaction
+My work has led to more than 20 authorized patents in China, the United States, the United Kingdom, and under the PCT system, with technology transfer and industrial applications exceeding RMB 10 million. Related achievements have received major provincial, ministerial, and industry awards, including the Shanghai Municipal Science and Technology Progress Award (First Prize), Shaanxi Provincial Science and Technology Progress Award (Second Prize), China Highway Society Science and Technology Awards (First and Second Prizes), China Highway Construction Industry Association Science and Technology Award (Special Prize), China Intelligent Transportation Systems Association Science and Technology Award (Second Prize), and China Industry-University-Research Cooperation Innovation Award (Second Prize).
+
+In student training, I have supervised undergraduate and graduate students who won honors including the First Prize in the National Transportation Science and Technology Competition, the SODIC Global Open Data Application Challenge championship in the inspection algorithm track, the First Prize in the China Graduate Smart City Technology and Creative Design Competition, and the Silver Award in the China International College Students' Innovation Competition.
 
 </div>
 <div class="i18n-zh-block" markdown="1">
 
-我是同济大学交通运输工程学院副教授。研究方向聚焦于**智能路面检测**、**基础设施计算机视觉监测**与**智慧交通系统**，致力于开发面向道路状态自动化评估的感知技术与机器学习算法，融合激光雷达点云处理、深度学习及众包数据分析。
+我是同济大学交通运输工程学院副教授 / 副研究员，主要从事**道路工程与智能计算交叉研究**，聚焦**基础设施使能自动驾驶**（IEA, Infrastructures Enable Automated-driving）以及陆空协同场景下交通基础设施韧性安全认知与主动保障。
 
-2023年于同济大学获交通运输工程博士学位（优秀博士论文），导师为[杜豫川](https://tjjt.tongji.edu.cn/)教授；2017年于同济大学获交通工程学士学位。
+入选国家资助博士后研究人员计划、上海市“超级博士后”。现担任世界交通运输大会（WTC）智慧公路委员会青年委员、美国交通运输研究委员会（TRB）技术委员、《Applied Sciences》期刊客座编辑，并受邀担任 *Automation in Construction*、*Computer-Aided Civil and Infrastructure Engineering*、*Transportation Research Part C*、*International Journal of Pavement Engineering*、《中国公路学报》等 20 余种国内外高水平期刊审稿人。
 
-研究成果荣获**上海市科学技术进步奖一等奖**及 **ESI 高被引论文**（引用125+次）。持有中国发明专利10项、美国专利1项、英国专利2项。
+在 *Automation in Construction*、*Transportation Research Part C*、*IEEE Transactions on Intelligent Transportation Systems* 等高水平期刊与会议发表论文 40 余篇。多项研究成果入选 IEEE ITSM 封面论文、ESI 全球前 1% 高被引论文、前 0.1% 热点论文，并获交通运输部重大科技成果认定；联合斯坦福大学在 Nature 旗下期刊 *Scientific Data* 发布全球公开数据集。
 
-研究兴趣包括：
-- 路面病害检测与状态评估
-- 激光雷达 / 探地雷达（GPR）数据分析
-- 面向基础设施监测的迁移学习与域自适应
-- 基于众包数据的大规模路面检测
-- 自动驾驶与道路-车辆交互
+相关成果已获中国、美国、英国及 PCT 国际专利授权 20 余项，完成科技成果转化与产业化应用超千万元。研究成果获上海市科技进步一等奖、陕西省科技进步二等奖、中国公路学会科学技术一等奖 / 二等奖、中国公路建设行业协会科学技术特等奖、中国智能交通协会科学技术二等奖、中国产学研合作创新二等奖等省部级与行业重要奖励。
+
+在人才培养方面，指导本科生和研究生多次获得全国交通科技大赛一等奖、SODIC 全球开放数据应用巡查算法分赛道冠军、中国研究生智慧城市技术与创意设计大赛一等奖、全国“互联网+”大学生创新创业大赛银奖等荣誉。
 
 </div>
 
