@@ -10,20 +10,43 @@
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio or author.bio_zh %}
+      <p class="author__bio">
+        {% if author.bio %}<span class="i18n-en">{{ author.bio }}</span>{% endif %}
+        {% if author.bio_zh %}<span class="i18n-zh">{{ author.bio_zh }}</span>{% endif %}
+      </p>
+    {% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li>
+          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>
+          <span>
+            <span class="i18n-en">{{ author.location }}</span>
+            {% if author.location_zh %}<span class="i18n-zh">{{ author.location_zh }}</span>{% endif %}
+          </span>
+        </li>
       {% endif %}
       {% if author.office %}
-        <li><i class="fas fa-fw fa-door-open" aria-hidden="true"></i> {{ author.office }}</li>
+        <li>
+          <i class="fas fa-fw fa-door-open" aria-hidden="true"></i>
+          <span>
+            <span class="i18n-en">{{ author.office }}</span>
+            {% if author.office_zh %}<span class="i18n-zh">{{ author.office_zh }}</span>{% endif %}
+          </span>
+        </li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fas fa-fw fa-building" aria-hidden="true"></i> {{ author.employer }}</li>
+        <li>
+          <i class="fas fa-fw fa-building" aria-hidden="true"></i>
+          <span>
+            <span class="i18n-en">{{ author.employer }}</span>
+            {% if author.employer_zh %}<span class="i18n-zh">{{ author.employer_zh }}</span>{% endif %}
+          </span>
+        </li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>

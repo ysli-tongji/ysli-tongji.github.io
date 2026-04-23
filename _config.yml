@@ -21,9 +21,15 @@ author:
     Associate Professor / Associate Research Fellow, College of Transportation,
     Tongji University. Research interests: road engineering and intelligent computing,
     infrastructures-enabled automated driving, and resilient transportation infrastructure.
+  bio_zh:      >
+    同济大学交通学院副教授 / 副研究员。研究方向：道路工程与智能计算、
+    基础设施使能自动驾驶、交通基础设施韧性安全。
   location:    "Shanghai, China"
+  location_zh: "中国上海"
   office:      "A307, Tongda Hall, College of Transportation, Tongji University (Jiading Campus)"
+  office_zh:   "同济大学（嘉定校区）交通学院（通达馆）A307"
   employer:    "Tongji University"
+  employer_zh: "同济大学"
   pubmed:
   googlescholar:
   email:
