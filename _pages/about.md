@@ -55,6 +55,26 @@ In student training, I have supervised undergraduate and graduate students who w
 
 <div class="i18n-en-block" markdown="1">
 
+<div class="news-feature-grid">
+  <article class="news-card news-card--highlight">
+    <div class="news-card__meta">
+      <span class="news-card__date">May 2026</span>
+      <span class="news-card__tag">ESI Highly Cited Paper</span>
+    </div>
+    <h2>One paper selected as an ESI Highly Cited Paper</h2>
+    <p>
+      Our paper <strong>"Aggregate-level 3D analysis of asphalt pavement deterioration using laser scanning and vision transformer"</strong>,
+      published in <em>Automation in Construction</em>, was selected as an <strong>ESI Highly Cited Paper</strong> in the May 2026 update, ranking among the top 1% of papers in its ESI field and publication year by citations.
+    </p>
+    <div class="news-card__links">
+      <a href="https://doi.org/10.1016/j.autcon.2025.106380">DOI</a>
+      <a href="files/esi-highly-cited-paper-2026-05.pdf">Certificate</a>
+    </div>
+  </article>
+</div>
+
+### More Updates
+
 - *2025.10* &nbsp;🎉 Two Chinese invention patents authorized (ZL 2024 1 1527641.2; ZL 2024 1 1721196.3).
 - *2025.06* &nbsp; Paper "Unsupervised pavement rutting detection using structured light and area-based deep learning" published in ***Automation in Construction*** (SCI Q1).
 - *2025.04* &nbsp; Featured in China Transport News (中国交通报) on AI road inspection technology.
@@ -68,6 +88,25 @@ In student training, I have supervised undergraduate and graduate students who w
 
 </div>
 <div class="i18n-zh-block" markdown="1">
+
+<div class="news-feature-grid">
+  <article class="news-card news-card--highlight">
+    <div class="news-card__meta">
+      <span class="news-card__date">2026.05</span>
+      <span class="news-card__tag">ESI 高被引论文</span>
+    </div>
+    <h2>一篇论文入选 ESI 高被引论文</h2>
+    <p>
+      发表于 <em>Automation in Construction</em> 的论文<strong>《Aggregate-level 3D analysis of asphalt pavement deterioration using laser scanning and vision transformer》</strong>入选 2026 年 5 月 ESI 高被引论文，按同年度、同 ESI 学科论文被引频次位列全球前 1%。
+    </p>
+    <div class="news-card__links">
+      <a href="https://doi.org/10.1016/j.autcon.2025.106380">DOI</a>
+      <a href="files/esi-highly-cited-paper-2026-05.pdf">证明文件</a>
+    </div>
+  </article>
+</div>
+
+### 更多动态
 
 - *2025.10* &nbsp;🎉 两项中国发明专利授权（ZL 2024 1 1527641.2；ZL 2024 1 1721196.3）。
 - *2025.06* &nbsp; 论文《基于结构光与区域深度学习的无监督路面车辙检测》发表于《建设自动化》（SCI Q1）。
