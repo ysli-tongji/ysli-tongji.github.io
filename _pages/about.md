@@ -68,7 +68,6 @@ In student training, I have supervised undergraduate and graduate students who w
     </p>
     <div class="news-card__links">
       <a href="https://doi.org/10.1016/j.autcon.2025.106380">DOI</a>
-      <a href="files/esi-highly-cited-paper-2026-05.pdf">Certificate</a>
     </div>
   </article>
 </div>
@@ -101,7 +100,6 @@ In student training, I have supervised undergraduate and graduate students who w
     </p>
     <div class="news-card__links">
       <a href="https://doi.org/10.1016/j.autcon.2025.106380">DOI</a>
-      <a href="files/esi-highly-cited-paper-2026-05.pdf">证明文件</a>
     </div>
   </article>
 </div>
