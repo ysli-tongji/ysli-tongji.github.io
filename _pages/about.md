@@ -70,6 +70,19 @@ In student training, I have supervised undergraduate and graduate students who w
       <a href="https://doi.org/10.1016/j.autcon.2025.106380">DOI</a>
     </div>
   </article>
+  <article class="news-card">
+    <div class="news-card__meta">
+      <span class="news-card__date">2026</span>
+      <span class="news-card__tag">ACL 2026</span>
+    </div>
+    <h2>UniCMs accepted by ACL 2026</h2>
+    <p>
+      Our collaborative paper <strong>"UniCMs: A Unified Consistency Model For Efficient Multimodal Generation and Understanding"</strong> has been accepted by <strong>ACL 2026</strong>. Developed with collaborators including <strong>Prof. Zhijie Deng</strong> from Shanghai Jiao Tong University, the work proposes a unified consistency-model framework for both multimodal generation and understanding, enabling efficient text-to-image and image-to-text modeling with substantially reduced sampling cost.
+    </p>
+    <div class="news-card__links">
+      <a href="https://arxiv.org/abs/2502.05415">arXiv</a>
+    </div>
+  </article>
 </div>
 
 ### More Updates
@@ -100,6 +113,19 @@ In student training, I have supervised undergraduate and graduate students who w
     </p>
     <div class="news-card__links">
       <a href="https://doi.org/10.1016/j.autcon.2025.106380">DOI</a>
+    </div>
+  </article>
+  <article class="news-card">
+    <div class="news-card__meta">
+      <span class="news-card__date">2026</span>
+      <span class="news-card__tag">ACL 2026</span>
+    </div>
+    <h2>合作论文 UniCMs 被 ACL 2026 接收</h2>
+    <p>
+      合作论文<strong>《UniCMs: A Unified Consistency Model For Efficient Multimodal Generation and Understanding》</strong>被 <strong>ACL 2026</strong> 接收。该工作与上海交通大学<strong>邓志杰</strong>老师等合作者共同完成，提出面向多模态生成与理解的一致性模型统一框架，在文本生成图像、图像生成文本等任务中兼顾生成质量与推理效率，显著降低采样开销。
+    </p>
+    <div class="news-card__links">
+      <a href="https://arxiv.org/abs/2502.05415">arXiv</a>
     </div>
   </article>
 </div>
